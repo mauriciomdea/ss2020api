@@ -1,0 +1,19 @@
+<h2>Participantes</h2>
+ 
+<table>
+  <tr>
+    <th>Login</th>
+    <th>Nome</th>
+    <th>Organização</th>
+    <th></th>
+  </tr>
+ 
+  <% @participantes.each do |p| %>
+    <tr>
+      <td><%= link_to p.login, participante_path(p) %></td>
+      <td><%= p.nome %></td>
+      <td><%= p.organizacao %></td>
+      <td></td>
+    </tr>
+  <% end %>
+</table>
