@@ -9,12 +9,20 @@ class ParticipantesController < ApplicationController
   end
 
   def new
+    @participante = Participante.new
+  end
+
+  def edit
+    @participante = Participante.find(params[:id])
   end
   
   def create
     @participante = Participante.new(participante_params)
-    @participante.save
-    redirect_to @participante
+    if @participante.save
+      redirect_to @participante
+    else
+      render 'new'
+    end
   end
 
   private
