@@ -25,6 +25,16 @@ class ParticipantesController < ApplicationController
     end
   end
 
+  def update
+    @participante = Participante.find(params[:id])
+   
+    if @participante.update(participante_params)
+      redirect_to @participante
+    else
+      render 'edit'
+    end
+  end
+
   private
   def participante_params
     params.require(:participante).permit(:login, :nome, :organizacao)

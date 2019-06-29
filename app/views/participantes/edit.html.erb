@@ -1,0 +1,36 @@
+
+<h1>Editar Participante</h1>
+ 
+<%= form_with(model: @participante, local: true) do |form| %>
+ 
+  <% if @participante.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@participante.errors.count, "error") %> prohibited
+        this participante from being saved:
+      </h2>
+      <ul>
+        <% @participante.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= form.label :nome %><br>
+    <%= form.text_field :nome %>
+  </p>
+
+  <p>
+    <%= form.label :organizacao %><br>
+    <%= form.text_field :organizacao %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+ 
+<% end %>
+ 
+<%= link_to 'Voltar', participantes_path %>
