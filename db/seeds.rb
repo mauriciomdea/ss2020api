@@ -15,9 +15,9 @@ g3 = Grupo.create(titulo: "Grupo Três")
 
 # Participantes
 
-Participante.create(login: "luizam", nome: "Luiza Mendes", grupo: g3, organizacao: "ORGANIZACAO")
-Participante.create(login: "silviar", nome: "Silvia Ribeiro", grupo: g2, organizacao: "ORGANIZACAO")
-Participante.create(login: "betal", nome: "Beta Loyola", grupo: g1, organizacao: "ORGANIZACAO")
+Participante.create(login: "luizam", senha: "123456", nome: "Luiza Mendes", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "ORGANIZACAO")
+Participante.create(login: "silviar", senha: "123456", nome: "Silvia Ribeiro", primeiro_dia_id: g2.id, segundo_dia_id: g2.id,  organizacao: "ORGANIZACAO")
+Participante.create(login: "betal", senha: "123456", nome: "Beta Loyola", primeiro_dia_id: g1.id, segundo_dia_id: g3.id,  organizacao: "ORGANIZACAO")
 # Participante.create(login: "ianc", nome: "Ian Craig,1,1,FEMSA,
 # Participante.create(login: "neurip", nome: "Neuri Pereira,1,2,FEMSA,
 # Participante.create(login: "nicolasb", nome: "Nicolas Bertelloni,1,3,FEMSA,
@@ -126,14 +126,25 @@ Evento.create(titulo: "Tema 6: VAD / AdeS", local: "Térreo", inicio: "2019-07-0
 Evento.create(titulo: "Tema 4: Hydration (Water & Tea)", local: "Térreo", inicio: "2019-07-03 16:50:00", fim: "2019-07-03 17:25:00", grupo: g3)
 Evento.create(titulo: "Tema 5: Juices", local: "Térreo", inicio: "2019-07-03 17:25:00", fim: "2019-07-03 18:00:00", grupo: g3)
 
-Evento.create(titulo: "Olympics (@ dinner)", local: "", inicio: "2019-07-03 19:15:00", fim: "2019-07-03 20:00:00", grupo: gg)
-Evento.create(titulo: "Cocktail Mixology + Team Dinner", local: "", inicio: "2019-07-03 20:00:00", fim: "2019-07-03 23:00:00", grupo: gg)
+Evento.create(titulo: "Olympics", local: "", inicio: "2019-07-03 19:15:00", fim: "2019-07-03 20:00:00", grupo: gg)
+Evento.create(titulo: "Cocktail Mixology + Team Dinner", local: "TBC", inicio: "2019-07-03 20:00:00", fim: "2019-07-03 23:00:00", grupo: gg)
 
 # Segundo dia
 
-Evento.create(titulo: "Welcome Coffee - AdeS + VAD", local: "PB 13 - Lounge", inicio: "2019-07-04 08::00", fim: "2019-07-04 08:30:00", grupo: gg)
+Evento.create(titulo: "Welcome Coffee - AdeS + VAD", local: "PB 13 - Lounge", inicio: "2019-07-04 08:00", fim: "2019-07-04 08:30:00", grupo: gg)
 Evento.create(titulo: "Strategic Priorities", local: "PB 13 - Auditório", inicio: "2019-07-04 08:30:00", fim: "2019-07-04 09:00:00", grupo: gg)
+
+Evento.create(titulo: "Tema 7: Fanta", local: "Térreo", inicio: "2019-07-04 09:00", fim: "2019-07-04 09:30", grupo: g1)
+Evento.create(titulo: "Tema 8: Guarana", local: "Térreo", inicio: "2019-07-04 09:30", fim: "2019-07-04 10:00", grupo: g1)
+Evento.create(titulo: "Tema 9: Sprite, Mixology (Schweppes)", local: "Térreo", inicio: "2019-07-04 10:00", fim: "2019-07-04 10:30", grupo: g1)
+
 Evento.create(titulo: "Break - Ilha de Experimentação", local: "PB1", inicio: "2019-07-04 10:30:00", fim: "2019-07-04 10:45:00", grupo: gg)
+
+Evento.create(titulo: "Tema 10: Winning @PoS powered by digital (coolers, millenium, B2B, Wabi)", local: "PB 1 Loja", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", grupo: g1)
+Evento.create(titulo: "Tema 11: Capacities (New Frontiers/ RTM/ Productivity/ Greenfield Stills)", local: "PB1 Hall", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", grupo: g1)
+Evento.create(titulo: "Tema 12: Executing the Plan (RGM Playbook/POS)", local: "PB1 Lounge", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", grupo: g1)
+
+
 Evento.create(titulo: "Lunch", local: "PB1 Restaurante", inicio: "2019-07-04 13:15:00", fim: "2019-07-04 14:15:00", grupo: gg)
 Evento.create(titulo: "Fast Start Session", local: "PB 13 - Auditório", inicio: "2019-07-04 14:15:00", fim: "2019-07-04 14:55:00", grupo: gg)
 Evento.create(titulo: "Closing Remarks / Thank you", local: "PB 13 - Auditório", inicio: "2019-07-04 14:55:00", fim: "2019-07-04 15:10:00", grupo: gg)

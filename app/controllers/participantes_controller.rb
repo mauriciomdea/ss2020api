@@ -37,8 +37,9 @@ class ParticipantesController < ApplicationController
 
   def agenda
     @participante = Participante.find_by(login: params[:participante_id])
-    # json_response(@participante.agenda)
-    render :json => @participante.agenda
+    @primeiro_dia = @participante.primeiro_dia
+    @segundo_dia = @participante.segundo_dia
+    # render :json => @participante.agenda
   end
 
   private
