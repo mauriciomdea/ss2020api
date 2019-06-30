@@ -1,6 +1,5 @@
 class Participante < ApplicationRecord
 
-  # has_many :grupos
   belongs_to :grupo
   has_many :eventos, through: :grupo
 
@@ -9,7 +8,8 @@ class Participante < ApplicationRecord
 
   def agenda
 
-    ActiveRecord::Base.connection.exec_query("SELECT * FROM eventos WHERE grupo_id IN (1, #{grupo_id}) GROUP BY eventos.id, eventos.inicio").rows
+    # ActiveRecord::Base.connection.exec_query("SELECT * FROM eventos WHERE grupo_id IN (#{Grupo.first.id}, #{grupo_id}) GROUP BY eventos.inicio, eventos.id").rows
+    Evento.find_by_sql("SELECT * FROM eventos WHERE grupo_id IN (#{Grupo.first.id}, #{grupo_id}) GROUP BY eventos.inicio, eventos.id")
 
   end
 
