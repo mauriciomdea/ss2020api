@@ -35,6 +35,12 @@ class ParticipantesController < ApplicationController
     end
   end
 
+  def agenda
+    @participante = Participante.find_by(login: params[:participante_id])
+    # json_response(@participante.agenda)
+    render :json => @participante.agenda
+  end
+
   private
   def participante_params
     params.require(:participante).permit(:login, :nome, :organizacao)
