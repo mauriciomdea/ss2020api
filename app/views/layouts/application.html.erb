@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Agenda</title>
+
+    <title>Strategy Summit 2020</title>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">   
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    
+    <%= favicon_link_tag "apple-touch-icon.png", rel: 'apple-touch-icon', type: 'image/png', sizes: "192x192" %>
+    <%= favicon_link_tag "favicon.png", rel: 'shortcut icon', type: 'image/png', sizes: "64x64" %>
+
     <style>
       body {
         margin: 20px;
@@ -21,9 +35,11 @@
         font-weight: semi-bold;
       }
     </style>
+
   </head>
 
   <body>
     <%= yield %>
   </body>
+
 </html>
