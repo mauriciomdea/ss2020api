@@ -19,21 +19,22 @@ Participante.create(login: "luizam", senha: "123456", nome: "Luiza Mendes", prim
 Participante.create(login: "silviar", senha: "123456", nome: "Silvia Ribeiro", primeiro_dia_id: g2.id, segundo_dia_id: g2.id,  organizacao: "ORGANIZACAO")
 Participante.create(login: "betal", senha: "123456", nome: "Beta Loyola", primeiro_dia_id: g1.id, segundo_dia_id: g3.id,  organizacao: "ORGANIZACAO")
 Participante.create(login: "ianc", senha: "123456", nome: "Ian Craig", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "FEMSA")
-# Participante.create(login: "neurip", nome: "Neuri Pereira,1,2,FEMSA,
-# Participante.create(login: "nicolasb", nome: "Nicolas Bertelloni,1,3,FEMSA,
-# Participante.create(login: "jonasm", nome: "Jonas Maia,2,3,FEMSA,
-# Participante.create(login: "rodrigoe", nome: "Rodrigo Espinosa,2,1,FEMSA,
-# Participante.create(login: "avelinop", nome: "Avelino Pereira,2,2,FEMSA,
-# Participante.create(login: "manuelr", nome: "Manuel Rodriguez  ,3,1,FEMSA,
-# Participante.create(login: "camilaa", nome: "Camila Amaral,3,2,FEMSA,
-# Participante.create(login: "luizf", nome: "Luiz F. Mattos,3,3,FEMSA,
-# Participante.create(login: "mariov", nome: "Mario Veronezi,1,2,SOLAR,
-# Participante.create(login: "llamego", nome: "L. Lamego,1,1,SOLAR,
-# Participante.create(login: "ricardom", nome: "Ricardo Mello,1,3,SOLAR,
-# Participante.create(login: "alexandrem", nome: "Alexandre Magno,2,1,SOLAR,
-# Participante.create(login: "nilsont", nome: "Nilson Tagliari,2,3,SOLAR,
-# Participante.create(login: "rubens", nome: "Ruben Schneider ,2,2,SOLAR,
-# Participante.create(login: "cleonyrx", nome: "Cleonyr Xavier,3,3,SOLAR,
+Participante.create(login: "neurip", senha: "123456", nome: "Neuri Pereira", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "FEMSA")
+Participante.create(login: "nicolasb", senha: "123456", nome: "Nicolas Bertelloni", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "FEMSA")
+Participante.create(login: "jonasm", senha: "123456", nome: "Jonas Maia", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "FEMSA")
+Participante.create(login: "rodrigoe", senha: "123456", nome: "Rodrigo Espinosa", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "FEMSA")
+Participante.create(login: "avelinop", senha: "123456", nome: "Avelino Pereira", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "FEMSA")
+Participante.create(login: "manuelr", senha: "123456", nome: "Manuel Rodriguez", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "FEMSA")
+Participante.create(login: "camilaa", senha: "123456", nome: "Camila Amaral", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "FEMSA")
+Participante.create(login: "luizf", senha: "123456", nome: "Luiz F. Mattos", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "FEMSA")
+Participante.create(login: "mariov", senha: "123456", nome: "Mario Veronezi", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "SOLAR")
+Participante.create(login: "luizl", senha: "123456", nome: "Luiz Lamego", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "SOLAR")
+Participante.create(login: "ricardom", senha: "123456", nome: "Ricardo Mello", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "SOLAR")
+Participante.create(login: "alexandrem", senha: "123456", nome: "Alexandre Magno", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "SOLAR")
+Participante.create(login: "nilsont", senha: "123456", nome: "Nilson Tagliari", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "SOLAR")
+Participante.create(login: "rubens", senha: "123456", nome: "Ruben Schneider", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "SOLAR")
+Participante.create(login: "cleonyrx", senha: "123456", nome: "Cleonyr Xavier", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "SOLAR") 
+# qr codes not generated yet
 # Participante.create(login: "leom", nome: "Leo Mello,3,1,SOLAR,
 # Participante.create(login: "fabioa", nome: "Fabio Acerbi,3,2,SOLAR,
 # Participante.create(login: "aristarcon", nome: "Aristarco Neto,1,1,SIMOES,
@@ -42,10 +43,10 @@ Participante.create(login: "ianc", senha: "123456", nome: "Ian Craig", primeiro_
 # Participante.create(login: "renatob", nome: "Renato Barbosa,1,3,ANDINA,
 # Participante.create(login: "rodrigok", nome: "Rodrigo Klee,2,1,ANDINA,
 # Participante.create(login: "davidp", nome: "David Pakers,3,1,ANDINA,
-# Participante.create(login: "mbauly", nome: "M. Bauly,1,2,ANDINA,
+# Participante.create(login: "marciob", nome: "Marcio Bauly,1,2,ANDINA,
 # Participante.create(login: "aldof", nome: "Aldo Fernandes,2,3,BANDEIRANTES,
 # Participante.create(login: "albertob", nome: "Alberto Batista ,3,1,BANDEIRANTES,
-# Participante.create(login: "yfluvio", nome: "Y. Fluvio ,1,3,BRASAL,
+# Participante.create(login: "yulf", nome: "Yul Fluvio ,1,3,BRASAL,
 # Participante.create(login: "jeanb", nome: "Jean Claude Blaffeder,2,1,BRASAL,
 # Participante.create(login: "alexandreb", nome: "Alexandre Biagi,3,2,UBERLANDIA,
 # Participante.create(login: "sergiog", nome: "Sérgio Gallo,1,3,UBERLANDIA,
