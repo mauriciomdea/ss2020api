@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
   get 'welcome/index'
   root 'welcome#index'
+  get 'sobre' => 'welcome#sobre', as: :sobre
 
   # resources :participantes
 
