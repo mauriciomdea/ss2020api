@@ -1,24 +1,28 @@
 <h1>Agenda</h1>
 
 <h2>03/Julho</h2>
-<!-- <hr> -->
  
 <% @primeiro_dia.each do |e| %>
 
-  <div>
+  <div style="margin-bottom: 30px;">
     <h3><%= e.titulo %></h3>
+    <% if e.palestrante.present? %>
+      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+    <% end %>
     <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
   </div>
 
 <% end %>
 
 <h2>04/Julho</h2>
-<!-- <hr> -->
  
 <% @segundo_dia.each do |e| %>
 
-  <div>
+  <div style="margin-bottom: 30px;">
     <h3><%= e.titulo %></h3>
+    <% if e.palestrante.present? %>
+      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+    <% end %>
     <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
   </div>
 
