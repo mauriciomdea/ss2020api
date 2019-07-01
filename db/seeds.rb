@@ -18,7 +18,7 @@ g3 = Grupo.create(titulo: "Grupo Três")
 Participante.create(login: "luizam", senha: "123456", nome: "Luiza Mendes", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "ORGANIZACAO")
 Participante.create(login: "silviar", senha: "123456", nome: "Silvia Ribeiro", primeiro_dia_id: g2.id, segundo_dia_id: g2.id,  organizacao: "ORGANIZACAO")
 Participante.create(login: "betal", senha: "123456", nome: "Beta Loyola", primeiro_dia_id: g1.id, segundo_dia_id: g3.id,  organizacao: "ORGANIZACAO")
-# Participante.create(login: "ianc", nome: "Ian Craig,1,1,FEMSA,
+Participante.create(login: "ianc", senha: "123456", nome: "Ian Craig", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "FEMSA")
 # Participante.create(login: "neurip", nome: "Neuri Pereira,1,2,FEMSA,
 # Participante.create(login: "nicolasb", nome: "Nicolas Bertelloni,1,3,FEMSA,
 # Participante.create(login: "jonasm", nome: "Jonas Maia,2,3,FEMSA,
