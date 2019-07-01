@@ -107,9 +107,11 @@ Evento.create(titulo: "Lunch", local: "PB13", inicio: "2019-07-03 12:15:00", fim
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve/SS RGB", local: "PB1 Lounge ", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", grupo: g1)
 Evento.create(titulo: "Tema 2: CCTM Meals & Returnables (20') + WWW (25') + Food aggregators (10')", local: "PB1 Restaurante", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", grupo: g1)
 Evento.create(titulo: "Tema 3: Low Cals + Labelling + Einstein + inovações", local: "PB1 Hall ", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", grupo: g1)
+
 Evento.create(titulo: "Tema 2: CCTM Meals & Returnables (20') + WWW (25') + Food aggregators (10')", local: "PB1 Restaurante", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", grupo: g2)
 Evento.create(titulo: "Tema 3: Low Cals + Labelling + Einstein + inovações", local: "PB1 Hall ", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", grupo: g2)
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve/SS RGB", local: "PB1 Lounge ", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", grupo: g2)
+
 Evento.create(titulo: "Tema 3: Low Cals + Labelling + Einstein + inovações", local: "PB1 Hall ", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", grupo: g3)
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve/SS RGB", local: "PB1 Lounge ", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", grupo: g3)
 Evento.create(titulo: "Tema 2: CCTM Meals & Returnables (20') + WWW (25') + Food aggregators (10')", local: "PB1 Restaurante", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", grupo: g3)
@@ -138,12 +140,27 @@ Evento.create(titulo: "Tema 7: Fanta", local: "Térreo", inicio: "2019-07-04 09
 Evento.create(titulo: "Tema 8: Guarana", local: "Térreo", inicio: "2019-07-04 09:30", fim: "2019-07-04 10:00", grupo: g1)
 Evento.create(titulo: "Tema 9: Sprite, Mixology (Schweppes)", local: "Térreo", inicio: "2019-07-04 10:00", fim: "2019-07-04 10:30", grupo: g1)
 
+Evento.create(titulo: "Tema 8: Guarana", local: "Térreo", inicio: "2019-07-04 09:00", fim: "2019-07-04 09:30", grupo: g2)
+Evento.create(titulo: "Tema 9: Sprite, Mixology (Schweppes)", local: "Térreo", inicio: "2019-07-04 09:30", fim: "2019-07-04 10:00", grupo: g2)
+Evento.create(titulo: "Tema 7: Fanta", local: "Térreo", inicio: "2019-07-04 10:00", fim: "2019-07-04 10:30", grupo: g2)
+
+Evento.create(titulo: "Tema 9: Sprite, Mixology (Schweppes)", local: "Térreo", inicio: "2019-07-04 09:00", fim: "2019-07-04 09:30", grupo: g3)
+Evento.create(titulo: "Tema 7: Fanta", local: "Térreo", inicio: "2019-07-04 09:30", fim: "2019-07-04 10:00", grupo: g3)
+Evento.create(titulo: "Tema 8: Guarana", local: "Térreo", inicio: "2019-07-04 10:00", fim: "2019-07-04 10:30", grupo: g3)
+
 Evento.create(titulo: "Break - Ilha de Experimentação", local: "PB1", inicio: "2019-07-04 10:30:00", fim: "2019-07-04 10:45:00", grupo: gg)
 
 Evento.create(titulo: "Tema 10: Winning @PoS powered by digital (coolers, millenium, B2B, Wabi)", local: "PB 1 Loja", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", grupo: g1)
 Evento.create(titulo: "Tema 11: Capacities (New Frontiers/ RTM/ Productivity/ Greenfield Stills)", local: "PB1 Hall", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", grupo: g1)
 Evento.create(titulo: "Tema 12: Executing the Plan (RGM Playbook/POS)", local: "PB1 Lounge", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", grupo: g1)
 
+Evento.create(titulo: "Tema 11: Capacities (New Frontiers/ RTM/ Productivity/ Greenfield Stills)", local: "PB1 Hall", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", grupo: g2)
+Evento.create(titulo: "Tema 12: Executing the Plan (RGM Playbook/POS)", local: "PB1 Lounge", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", grupo: g2)
+Evento.create(titulo: "Tema 10: Winning @PoS powered by digital (coolers, millenium, B2B, Wabi)", local: "PB 1 Loja", inicio: "2019-07-04 12:25", fim: "", grupo: g2)
+
+Evento.create(titulo: "Tema 12: Executing the Plan (RGM Playbook/POS)", local: "PB1 Lounge", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", grupo: g3)
+Evento.create(titulo: "Tema 10: Winning @PoS powered by digital (coolers, millenium, B2B, Wabi)", local: "PB 1 Loja", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", grupo: g3)
+Evento.create(titulo: "Tema 11: Capacities (New Frontiers/ RTM/ Productivity/ Greenfield Stills)", local: "PB1 Hall", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", grupo: g3)
 
 Evento.create(titulo: "Lunch", local: "PB1 Restaurante", inicio: "2019-07-04 13:15:00", fim: "2019-07-04 14:15:00", grupo: gg)
 Evento.create(titulo: "Fast Start Session", local: "PB 13 - Auditório", inicio: "2019-07-04 14:15:00", fim: "2019-07-04 14:55:00", grupo: gg)
