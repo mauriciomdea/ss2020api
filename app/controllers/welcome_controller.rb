@@ -1,15 +1,12 @@
 class WelcomeController < ApplicationController
+  before_action :authenticate_user
 
   def index
-    # @participante = Participante.find_by(login: request.query_parameters[:participante])
-    # @participante = Participante.find_by(login: 'betal')
-    @participante = Participante.find(participante)
-    # @primeiro_dia = @participante.primeiro_dia
-    # @segundo_dia = @participante.segundo_dia
+    @participante = current_user
   end
 
   def sobre
-    @participante = participante
+    @participante = current_user
   end
 
 end
