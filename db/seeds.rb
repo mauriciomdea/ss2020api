@@ -53,9 +53,9 @@ Participante.create(login: "emersonv", senha: "123456", nome: "Emerson Vontobel"
 Participante.create(login: "josec", senha: "123456", nome: "José Cunha", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "CVI")
 Participante.create(login: "cristianob", senha: "123456", nome: "Cristiano Biagi", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "SOROCABA")
 Participante.create(login: "fabricioc", senha: "123456", nome: "Fabricio Carvalho", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "SOROCABA")
-# Participante.create(login: "arlindoc", nome: "Arlindo Curzi,3,1,VAD,
-# Participante.create(login: "dirks", nome: "Dirk Schneider,1,2,LEAO,
-# Participante.create(login: "franciscoc", nome: "Francisco Crespo,1,,KO,
+Participante.create(login: "arlindoc", senha: "123456", nome: "Arlindo Curzi", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "VAD")
+Participante.create(login: "dirks", senha: "123456", nome: "Dirk Schneider", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "LEAO")
+Participante.create(login: "franciscoc", senha: "123456", nome: "Francisco Crespo", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "KO")
 # Participante.create(login: "selmanc", nome: "Selman Careaga,1,3,KO,
 # Participante.create(login: "luisg", nome: "Luis Galguera,1,1,KO,
 # Participante.create(login: "pedror", nome: "Pedro Rios,1,2,KO,
