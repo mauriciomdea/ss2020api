@@ -5,7 +5,7 @@ class SessionsController < ActionController::Base
   end
 
   def create
-    p = Participante.find_by(login: params[:login])
+    p = Participante.find_by(login: params[:login].downcase)
     if p && p.authenticate(params[:password])
       session[:participante_id] = p.id
       puts session[:participante_id]
