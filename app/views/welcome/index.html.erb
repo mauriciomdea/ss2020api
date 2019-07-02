@@ -6,10 +6,10 @@
 
   <div style="margin-bottom: 30px;">
     <h3><%= e.titulo %></h3>
-    <% if e.palestrante.present? %>
+<!--     <% if e.palestrante.present? %>
       <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
-    <% end %>
-    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
+    <% end %> -->
+    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
   </div>
 
 <% end %>
@@ -20,10 +20,10 @@
 
   <div style="margin-bottom: 30px;">
     <h3><%= e.titulo %></h3>
-    <% if e.palestrante.present? %>
+<!--     <% if e.palestrante.present? %>
       <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
-    <% end %>
-    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
+    <% end %> -->
+    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
   </div>
 
 <% end %>
