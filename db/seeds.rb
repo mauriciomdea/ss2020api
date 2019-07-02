@@ -53,7 +53,6 @@ Participante.create(login: "emersonv", senha: "123456", nome: "Emerson Vontobel"
 Participante.create(login: "josec", senha: "123456", nome: "José Cunha", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "CVI")
 Participante.create(login: "cristianob", senha: "123456", nome: "Cristiano Biagi", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "SOROCABA")
 Participante.create(login: "fabricioc", senha: "123456", nome: "Fabricio Carvalho", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "SOROCABA")
-# qr codes not generated yet
 # Participante.create(login: "arlindoc", nome: "Arlindo Curzi,3,1,VAD,
 # Participante.create(login: "dirks", nome: "Dirk Schneider,1,2,LEAO,
 # Participante.create(login: "franciscoc", nome: "Francisco Crespo,1,,KO,
@@ -106,16 +105,16 @@ Evento.create(titulo: "Estratégia 2020", local: "PB 13 - Auditório", inicio: 
 Evento.create(titulo: "Almoço", local: "PB 13 - Rest", inicio: "2019-07-03 12:15:00", fim: "2019-07-03 13:15:00", grupo: gg)
 
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve", local: "PB1 Lounge ", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", palestrante: "Bea Jordão | Paty Paiva", grupo: g1)
-Evento.create(titulo: "Tema 2: CCTM Meals & Refillables", local: "PB1 Restaurante", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g1)
+Evento.create(titulo: "Tema 2: CCTM Meals & Retornáveis", local: "PB1 Restaurante", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g1)
 Evento.create(titulo: "Tema 3: CCTM Low Cals", local: "PB1 Hall ", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", palestrante: "Bruno Blaschek | Giovanna A", grupo: g1)
 
-Evento.create(titulo: "Tema 2: CCTM Meals & Refillables", local: "PB1 Restaurante", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g2)
+Evento.create(titulo: "Tema 2: CCTM Meals & Retornáveis", local: "PB1 Restaurante", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g2)
 Evento.create(titulo: "Tema 3: CCTM Low Cals", local: "PB1 Hall ", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", palestrante: "Bruno Blaschek | Giovanna A", grupo: g2)
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve", local: "PB1 Lounge ", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", palestrante: "Bea Jordão | Paty Paiva", grupo: g2)
 
 Evento.create(titulo: "Tema 3: CCTM Low Cals", local: "PB1 Hall ", inicio: "2019-07-03 13:15:00", fim: "2019-07-03 14:10:00", palestrante: "Bruno Blaschek | Giovanna A", grupo: g3)
 Evento.create(titulo: "Tema 1: CCTM Uplift + Single Serve", local: "PB1 Lounge ", inicio: "2019-07-03 14:10:00", fim: "2019-07-03 15:05:00", palestrante: "Bea Jordão | Paty Paiva", grupo: g3)
-Evento.create(titulo: "Tema 2: CCTM Meals & Refillables", local: "PB1 Restaurante", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g3)
+Evento.create(titulo: "Tema 2: CCTM Meals & Retornáveis", local: "PB1 Restaurante", inicio: "2019-07-03 15:05:00", fim: "2019-07-03 16:00:00", palestrante: "Raoni | Diogo G. | Thais V | Laiz Assad", grupo: g3)
 
 Evento.create(titulo: "Break - Ilha de Experimentação", local: "Térreo", inicio: "2019-07-03 16:00:00", fim: "2019-07-03 16:15:00", grupo: gg)
 
@@ -131,7 +130,7 @@ Evento.create(titulo: "Tema 5: Virar Sucos", local: "Térreo", inicio: "2019-07
 
 # Evento.create(titulo: "Olympics", local: "", inicio: "2019-07-03 19:15:00", fim: "2019-07-03 20:00:00", grupo: gg)
 Evento.create(titulo: "Livre", local: "", inicio: "2019-07-03 18:00:00", fim: "2019-07-03 20:00:00", grupo: gg)
-Evento.create(titulo: "Coquetel com Mixologia + Jantar Despedida Claudia Lorenzo", local: "TBC", inicio: "2019-07-03 20:00:00", fim: "2019-07-03 23:00:00", grupo: gg)
+Evento.create(titulo: "Coquetel com Mixologia + Jantar de Celebração", local: "Gávea Golf Club", inicio: "2019-07-03 20:00:00", fim: "2019-07-03 23:00:00", grupo: gg)
 
 # Segundo dia
 
@@ -153,16 +152,16 @@ Evento.create(titulo: "Tema 8: Guaranás: Vencendo com Portfolio", local: "Tér
 Evento.create(titulo: "Break - Ilha de Experimentação", local: "PB1", inicio: "2019-07-04 10:30:00", fim: "2019-07-04 10:45:00", grupo: gg)
 
 Evento.create(titulo: "Tema 10: Vencendo no Ponto de Venda 2.0", local: "PB1 Restaurante", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", palestrante: "Flávio C. | Xavier | João | Cibele | Gabriel M | A. Viveiros", grupo: g1)
-Evento.create(titulo: "Tema 11: Omnichannel centrado no consumidor/cliente", local: "PB1 Hall", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g1)
+Evento.create(titulo: "Tema 11: Omnichannel & Produtividade", local: "PB1 Hall", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g1)
 Evento.create(titulo: "Tema 12: Motor de Crescimento", local: "PB1 Lounge", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", palestrante: "D. Moritz | C. Saboya | Imperial | Cadu | Ighor", grupo: g1)
 
-Evento.create(titulo: "Tema 11: Omnichannel centrado no consumidor/cliente", local: "PB1 Hall", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g2)
+Evento.create(titulo: "Tema 11: Omnichannel & Produtividade", local: "PB1 Hall", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g2)
 Evento.create(titulo: "Tema 12: Motor de Crescimento", local: "PB1 Lounge", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", palestrante: "D. Moritz | C. Saboya | Imperial | Cadu | Ighor", grupo: g2)
 Evento.create(titulo: "Tema 10: Vencendo no Ponto de Venda 2.0", local: "PB1 Restaurante", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", palestrante: "Flávio C. | Xavier | João | Cibele | Gabriel M | A. Viveiros", grupo: g2)
 
 Evento.create(titulo: "Tema 12: Motor de Crescimento", local: "PB1 Lounge", inicio: "2019-07-04 10:45", fim: "2019-07-04 11:35", palestrante: "D. Moritz | C. Saboya | Imperial | Cadu | Ighor", grupo: g3)
 Evento.create(titulo: "Tema 10: Vencendo no Ponto de Venda 2.0", local: "PB1 Restaurante", inicio: "2019-07-04 11:35", fim: "2019-07-04 12:25", palestrante: "Flávio C. | Xavier | João | Cibele | Gabriel M | A. Viveiros", grupo: g3)
-Evento.create(titulo: "Tema 11: Omnichannel centrado no consumidor/cliente", local: "PB1 Hall", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g3)
+Evento.create(titulo: "Tema 11: Omnichannel & Produtividade", local: "PB1 Hall", inicio: "2019-07-04 12:25", fim: "2019-07-04 13:15", palestrante: "Neuri | Minas | P. Mendes | Ronaldo", grupo: g3)
 
 Evento.create(titulo: "Almoço", local: "PB 13 - Rest", inicio: "2019-07-04 13:15:00", fim: "2019-07-04 14:15:00", grupo: gg)
 Evento.create(titulo: "Fast Start 2020", local: "PB 13 - Auditório", inicio: "2019-07-04 14:15:00", fim: "2019-07-04 14:55:00", palestrante: "GMs", grupo: gg)
