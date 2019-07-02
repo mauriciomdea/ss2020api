@@ -56,44 +56,44 @@ Participante.create(login: "fabricioc", senha: "123456", nome: "Fabricio Carvalh
 Participante.create(login: "arlindoc", senha: "123456", nome: "Arlindo Curzi", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "VAD")
 Participante.create(login: "dirks", senha: "123456", nome: "Dirk Schneider", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "LEAO")
 Participante.create(login: "franciscoc", senha: "123456", nome: "Francisco Crespo", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "KO")
-# Participante.create(login: "selmanc", nome: "Selman Careaga,1,3,KO,
-# Participante.create(login: "luisg", nome: "Luis Galguera,1,1,KO,
-# Participante.create(login: "pedror", nome: "Pedro Rios,1,2,KO,
-# Participante.create(login: "flavioc", nome: "Flavio Camelier,1,2,KO,
-# Participante.create(login: "luizv", nome: "Luiz Valmont,1,2,KO,
-# Participante.create(login: "minasv", nome: "Minas Vourodimos,1,3,KO,
-# Participante.create(login: "brunog", nome: "Bruno Garcia,1,3,KO,
-# Participante.create(login: "marcelob", nome: "Marcelo Bozzini,1,2,KO,
-# Participante.create(login: "polianas", nome: "Poliana Sousa,1,1,KO,
-# Participante.create(login: "renatos", nome: "Renato Shiratsu,1,3,KO,
-# Participante.create(login: "ronaldoc", nome: "Ronaldo Carvalho,1,1,KO,
-# Participante.create(login: "carolb", nome: "Carol Bernardes,1,2,KO,
-# Participante.create(login: "henriqueb", nome: "Henrique Braun,2,1,KO,
-# Participante.create(login: "alexandref", nome: "Alexandre Fernandes,2,2,KO,
-# Participante.create(login: "isabels", nome: "Isabel Salvador,2,3,KO,
-# Participante.create(login: "luizc", nome: "Luiz Phelipe Castro,2,3,KO,
-# Participante.create(login: "mariog", nome: "Mario G,2,1,KO,
-# Participante.create(login: "alfredoh", nome: "Alfredo Hirsch,2,2,KO,
-# Participante.create(login: "danielm", nome: "Daniel Moritz,2,3,KO,
-# Participante.create(login: "brunov", nome: "Bruno Vivacqua,2,1,KO,
-# Participante.create(login: "danielc", nome: "Daniel Mota de Carvalho,2,2,KO,
-# Participante.create(login: "pedroa", nome: "Pedro Abondanza,2,3,KO,
-# Participante.create(login: "fernandar", nome: "Fernanda Ruiz,2,1,KO,
-# Participante.create(login: "marianaa", nome: "Mariana Azevedo,2,3,KO,
-# Participante.create(login: "rodrigob", nome: "Rodrigo Bianchini,2,2,KO,
-# Participante.create(login: "marcelog", nome: "Marcelo Gil,3,3,KO,
-# Participante.create(login: "claudial", nome: "Claudia Lorenzo,3,1,KO,
-# Participante.create(login: "simoneg", nome: "Simone Grossmann,3,3,KO,
-# Participante.create(login: "flaviom", nome: "Flavio Mattos,3,1,KO,
-# Participante.create(login: "pedrom", nome: "Pedro Massa,3,2,KO,
-# Participante.create(login: "deboram", nome: "Debora Mattos,3,1,KO,
-# Participante.create(login: "paulom", nome: "Paulo Mendes,3,2,KO,
-# Participante.create(login: "leonardoa", nome: "Leonardo Aydelkop,3,2,KO,
-# Participante.create(login: "silmarao", nome: "Silmara Olivio,3,1,KO,
-# Participante.create(login: "marinar", nome: "Marina Rocha,3,3,KO,
-# Participante.create(login: "andream", nome: "Andrea Mota,3,3,KO,
-# Participante.create(login: "paulov", nome: "Paulo Villas,3,1,KO,
-# Participante.create(login: "fernandac", nome: "Fernanda Correa,3,2,KO
+Participante.create(login: "selmanc", senha: "123456", nome: "Selman Careaga", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "luisg", senha: "123456", nome: "Luis Galguera", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "pedror", senha: "123456", nome: "Pedro Rios", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "flavioc", senha: "123456", nome: "Flavio Camelier", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "luizv", senha: "123456", nome: "Luiz Valmont", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "minasv", senha: "123456", nome: "Minas Vourodimos", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "brunog", senha: "123456", nome: "Bruno Garcia", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "marcelob", senha: "123456", nome: "Marcelo Bozzini", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "polianas", senha: "123456", nome: "Poliana Sousa", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "renatos", senha: "123456", nome: "Renato Shiratsu", primeiro_dia_id: g1.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "ronaldoc", senha: "123456", nome: "Ronaldo Carvalho", primeiro_dia_id: g1.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "carolb", senha: "123456", nome: "Carol Bernardes", primeiro_dia_id: g1.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "henriqueb", senha: "123456", nome: "Henrique Braun", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "alexandref", senha: "123456", nome: "Alexandre Fernandes", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "isabels", senha: "123456", nome: "Isabel Salvador", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "luizc", senha: "123456", nome: "Luiz Phelipe Castro", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "mariog", senha: "123456", nome: "Mario G", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "alfredoh", senha: "123456", nome: "Alfredo Hirsch", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "danielm", senha: "123456", nome: "Daniel Moritz", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "brunov", senha: "123456", nome: "Bruno Vivacqua", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "danielc", senha: "123456", nome: "Daniel Mota de Carvalho", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "pedroa", senha: "123456", nome: "Pedro Abondanza", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "fernandar", senha: "123456", nome: "Fernanda Ruiz", primeiro_dia_id: g2.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "marianaa", senha: "123456", nome: "Mariana Azevedo", primeiro_dia_id: g2.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "rodrigob", senha: "123456", nome: "Rodrigo Bianchini", primeiro_dia_id: g2.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "marcelog", senha: "123456", nome: "Marcelo Gil", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "claudial", senha: "123456", nome: "Claudia Lorenzo", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "simoneg", senha: "123456", nome: "Simone Grossmann", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "flaviom", senha: "123456", nome: "Flavio Mattos", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "pedrom", senha: "123456", nome: "Pedro Massa", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "deboram", senha: "123456", nome: "Debora Mattos", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "paulom", senha: "123456", nome: "Paulo Mendes", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "leonardoa", senha: "123456", nome: "Leonardo Aydelkop", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "KO")
+Participante.create(login: "silmarao", senha: "123456", nome: "Silmara Olivio", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "marinar", senha: "123456", nome: "Marina Rocha", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "andream", senha: "123456", nome: "Andrea Mota", primeiro_dia_id: g3.id, segundo_dia_id: g3.id, organizacao: "KO")
+Participante.create(login: "paulov", senha: "123456", nome: "Paulo Villas", primeiro_dia_id: g3.id, segundo_dia_id: g1.id, organizacao: "KO")
+Participante.create(login: "fernandac", senha: "123456", nome: "Fernanda Correa", primeiro_dia_id: g3.id, segundo_dia_id: g2.id, organizacao: "KO")
 
 # Eventos Primeiro Dia
 
