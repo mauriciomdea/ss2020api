@@ -1,3 +1,29 @@
-<h1>Strategy Summit 2020</h1>
+<h1>Agenda <%= "(#{request.query_parameters[:participante]})" unless request.query_parameters[:participante].nil?  %></h1>
 
-<h3><%= link_to 'Participantes', controller: 'participantes' %></h3>
+<h2>03/Julho</h2>
+ 
+<% @primeiro_dia.each do |e| %>
+
+  <div style="margin-bottom: 30px;">
+    <h3><%= e.titulo %></h3>
+    <% if e.palestrante.present? %>
+      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+    <% end %>
+    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
+  </div>
+
+<% end %>
+
+<h2>04/Julho</h2>
+ 
+<% @segundo_dia.each do |e| %>
+
+  <div style="margin-bottom: 30px;">
+    <h3><%= e.titulo %></h3>
+    <% if e.palestrante.present? %>
+      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+    <% end %>
+    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %> no <%= e.local %></p>
+  </div>
+
+<% end %>

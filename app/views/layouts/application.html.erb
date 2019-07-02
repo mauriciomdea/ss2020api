@@ -7,6 +7,12 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">   
@@ -19,27 +25,50 @@
     <%= favicon_link_tag "apple-touch-icon.png", rel: 'apple-touch-icon', type: 'image/png', sizes: "192x192" %>
     <%= favicon_link_tag "favicon.png", rel: 'shortcut icon', type: 'image/png', sizes: "64x64" %>
 
-    <style>
-      body {
-        margin: 20px;
-      }
-
-      h1, h2, h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        color: rgb(237, 87, 92);
-      }
-
-      p {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: semi-bold;
-      }
-    </style>
-
   </head>
 
   <body>
-    <%= yield %>
+
+    <nav>
+      <!-- navbar content here  --> 
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">STRATEGY SUMMIT 2020</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+<!--         <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul> -->
+      </div>
+    </nav>
+    <ul id="slide-out" class="sidenav">
+      <!-- <li><div class="user-view">
+        <div class="background">
+          <img src="images/office.jpg">
+        </div>
+        <a href="#user"><%= image_tag "apple-touch-icon.png", size: "192x192", class: "circle" %></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a> -->
+      </div></li>
+      <!-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li> -->
+      <!-- <li><a href="#!">Second Link</a></li> -->
+      <%= image_tag "apple-touch-icon.png", size: "192x192", style: "margin: 0px 10px 15px;" %>
+      <li><%= link_to "Agenda", root_path %></li>
+      <li><%= link_to "Sobre", sobre_path %></li>
+      <li><a href="#!">Perfil</a></li>
+      <!-- <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+    </ul>
+    
+
+    <div style="margin: 20px;">
+      <%= yield %>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
   </body>
 
 </html>
