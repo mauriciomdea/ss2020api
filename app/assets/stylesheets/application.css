@@ -55,7 +55,8 @@ a {
   padding: 0 32px;
 }
 
-.brand-logo {
+nav .brand-logo {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  font-size: 1.0em;
 }
