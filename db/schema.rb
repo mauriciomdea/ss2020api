@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_30_215007) do
+ActiveRecord::Schema.define(version: 2019_07_02_141643) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 2019_06_30_215007) do
 
   create_table "participantes", force: :cascade do |t|
     t.string "login"
-    t.string "senha"
     t.string "nome"
     t.string "email"
     t.string "organizacao"
@@ -45,6 +44,7 @@ ActiveRecord::Schema.define(version: 2019_06_30_215007) do
     t.bigint "grupo_id"
     t.integer "primeiro_dia_id"
     t.integer "segundo_dia_id"
+    t.string "password_digest"
     t.index ["grupo_id"], name: "index_participantes_on_grupo_id"
   end
 

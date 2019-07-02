@@ -1,4 +1,5 @@
 class Participante < ApplicationRecord
+  has_secure_password
 
   # belongs_to :grupo
   # has_many :eventos, through: :grupo
