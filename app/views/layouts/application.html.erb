@@ -53,7 +53,8 @@
       <!-- <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li> -->
       <!-- <li><a href="#!">Second Link</a></li> -->
       <%= image_tag "apple-touch-icon.png", size: "192x192", style: "margin: 0px 10px 15px;" %>
-      <li><%= link_to "Agenda", root_path %></li>
+      <li><%= link_to "03/Julho", root_path(anchor: "03julho"), method: :get %></li>
+      <li><%= link_to "04/Julho", root_path(anchor: "04julho"), method: :get %></li>
       <li><%= link_to "Sobre", sobre_path %></li>
       <li><%= link_to "Perfil", participante_path(@participante) %></li>
       <!-- <li><div class="divider"></div></li>

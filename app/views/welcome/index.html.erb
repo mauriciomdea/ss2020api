@@ -1,29 +1,38 @@
-<h1>Agenda <%= "(#{request.query_parameters[:participante]})" unless request.query_parameters[:participante].nil?  %></h1>
+<!-- <h1>Agenda</h1> -->
 
-<h2>03/Julho</h2>
- 
-<% @participante.primeiro_dia.each do |e| %>
+<div id="03julho" style="margin-top: 50px; margin-bottom: 50px;">
 
-  <div style="margin-bottom: 30px;">
-    <h3><%= e.titulo %></h3>
-<!--     <% if e.palestrante.present? %>
-      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
-    <% end %> -->
-    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
-  </div>
+  <h1>03/Julho</h1>
+  <div class="divider"></div>
+   
+  <% @participante.primeiro_dia.each do |e| %>
 
-<% end %>
+    <div style="margin-bottom: 30px;">
+      <h3><%= e.titulo %></h3>
+  <!--     <% if e.palestrante.present? %>
+        <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+      <% end %> -->
+      <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
+    </div>
 
-<h2>04/Julho</h2>
- 
-<% @participante.segundo_dia.each do |e| %>
+  <% end %>
+</div>
 
-  <div style="margin-bottom: 30px;">
-    <h3><%= e.titulo %></h3>
-<!--     <% if e.palestrante.present? %>
-      <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
-    <% end %> -->
-    <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
-  </div>
+<div id="04julho" style="margin-top: 50px; margin-bottom: 50px;">
 
-<% end %>
+  <h1>04/Julho</h1>
+  <div class="divider"></div>
+   
+  <% @participante.segundo_dia.each do |e| %>
+
+    <div style="margin-bottom: 30px;">
+      <h3><%= e.titulo %></h3>
+  <!--     <% if e.palestrante.present? %>
+        <p style="font-style: italic; margin-top: -5px;"><%= e.palestrante %></p>
+      <% end %> -->
+      <p>Das <%= e.inicio.strftime("%H:%M") %> às <%= e.fim.strftime("%H:%M") %><% unless e.local.nil? %> no <%= e.local %><% end %></p>
+    </div>
+
+  <% end %>
+
+</div>
